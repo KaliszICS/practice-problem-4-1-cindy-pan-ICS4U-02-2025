@@ -17,7 +17,11 @@
 		return (this.length * this.width);
 	}
 	public double perimeter(){
+		if (this.length==0||this.width==0){
+			return 0.0;
+		}else{
 		return (this.length+this.width)*2;
+		}
 	}
 }
 
